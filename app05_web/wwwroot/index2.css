@@ -1,0 +1,11 @@
+body {
+    padding: 100px 0 0 200px; 
+}
+
+.mybtn {
+    background-color: deeppink;
+}
+
+.my-hidden {
+    visibility: hidden;
+}
