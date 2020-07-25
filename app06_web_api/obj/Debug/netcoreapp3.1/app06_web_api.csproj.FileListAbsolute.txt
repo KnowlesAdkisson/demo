@@ -23,3 +23,28 @@ C:\Users\knowl\OneDrive\Documents\Visual Studio Code projects\app06_web_api\bin\
 C:\Users\knowl\OneDrive\Documents\Visual Studio Code projects\app06_web_api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\knowl\OneDrive\Documents\Visual Studio Code projects\app06_web_api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\knowl\OneDrive\Documents\Visual Studio Code projects\app06_web_api\obj\Debug\netcoreapp3.1\app06_web_api.csproj.CopyComplete
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\app06_web_api.exe
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\app06_web_api.deps.json
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\app06_web_api.runtimeconfig.json
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\app06_web_api.runtimeconfig.dev.json
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\app06_web_api.dll
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\app06_web_api.pdb
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\app06_web_api.csprojAssemblyReference.cache
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\staticwebassets\app06_web_api.StaticWebAssets.Manifest.cache
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\staticwebassets\app06_web_api.StaticWebAssets.xml
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\app06_web_api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\app06_web_api.AssemblyInfoInputs.cache
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\app06_web_api.AssemblyInfo.cs
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\app06_web_api.RazorTargetAssemblyInfo.cache
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\app06_web_api.csproj.CopyComplete
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\app06_web_api.dll
+C:\Users\knowl\Documents\class_2020\demo\app06_web_api\obj\Debug\netcoreapp3.1\app06_web_api.pdb

@@ -16,3 +16,21 @@ C:\Users\knowl\OneDrive\Documents\Visual Studio Code projects\app05_web\obj\Debu
 C:\Users\knowl\OneDrive\Documents\Visual Studio Code projects\app05_web\obj\Debug\netcoreapp3.1\app05_web.RazorTargetAssemblyInfo.cache
 C:\Users\knowl\OneDrive\Documents\Visual Studio Code projects\app05_web\obj\Debug\netcoreapp3.1\app05_web.dll
 C:\Users\knowl\OneDrive\Documents\Visual Studio Code projects\app05_web\obj\Debug\netcoreapp3.1\app05_web.pdb
+C:\Users\knowl\Documents\class_2020\demo\app05_web\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\knowl\Documents\class_2020\demo\app05_web\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\knowl\Documents\class_2020\demo\app05_web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\knowl\Documents\class_2020\demo\app05_web\bin\Debug\netcoreapp3.1\app05_web.exe
+C:\Users\knowl\Documents\class_2020\demo\app05_web\bin\Debug\netcoreapp3.1\app05_web.deps.json
+C:\Users\knowl\Documents\class_2020\demo\app05_web\bin\Debug\netcoreapp3.1\app05_web.runtimeconfig.json
+C:\Users\knowl\Documents\class_2020\demo\app05_web\bin\Debug\netcoreapp3.1\app05_web.runtimeconfig.dev.json
+C:\Users\knowl\Documents\class_2020\demo\app05_web\bin\Debug\netcoreapp3.1\app05_web.dll
+C:\Users\knowl\Documents\class_2020\demo\app05_web\bin\Debug\netcoreapp3.1\app05_web.pdb
+C:\Users\knowl\Documents\class_2020\demo\app05_web\obj\Debug\netcoreapp3.1\app05_web.csprojAssemblyReference.cache
+C:\Users\knowl\Documents\class_2020\demo\app05_web\obj\Debug\netcoreapp3.1\staticwebassets\app05_web.StaticWebAssets.Manifest.cache
+C:\Users\knowl\Documents\class_2020\demo\app05_web\obj\Debug\netcoreapp3.1\staticwebassets\app05_web.StaticWebAssets.xml
+C:\Users\knowl\Documents\class_2020\demo\app05_web\obj\Debug\netcoreapp3.1\app05_web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\knowl\Documents\class_2020\demo\app05_web\obj\Debug\netcoreapp3.1\app05_web.AssemblyInfoInputs.cache
+C:\Users\knowl\Documents\class_2020\demo\app05_web\obj\Debug\netcoreapp3.1\app05_web.AssemblyInfo.cs
+C:\Users\knowl\Documents\class_2020\demo\app05_web\obj\Debug\netcoreapp3.1\app05_web.RazorTargetAssemblyInfo.cache
+C:\Users\knowl\Documents\class_2020\demo\app05_web\obj\Debug\netcoreapp3.1\app05_web.dll
+C:\Users\knowl\Documents\class_2020\demo\app05_web\obj\Debug\netcoreapp3.1\app05_web.pdb

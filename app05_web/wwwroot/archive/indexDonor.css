@@ -1,0 +1,62 @@
+.my-lighter {background-color: #B1ABC6;}
+.my-light {background-color: #9288B0;}
+.my-normal {background-color: #776B9F;}
+.my-dark {background-color: #5E4F8E;}
+.my-darker {background-color: #45347B}
+
+.my-gray-80 {background-color: #CCCCCC}
+
+.my-body {
+    background-color: #CCCCCC
+}
+
+.my-nav {
+    background-color:  #776B9F;
+    border-bottom: solid 1px #45347B;
+}
+
+h4,
+table {
+    margin-top:20px;
+}
+
+.my-spacer {
+    height: 60px;
+}
+
+.my-form {
+    background-color: #9288B0;
+    border: solid 1px #45347B;
+    border-radius: 6px;
+    padding: 20px 30px 20px 30px;
+}
+
+.my-form-control {
+    border: solid 1px #45347B;
+}
+
+.my-btn {
+    background-color:  #776B9F;
+    border: solid 1px #45347B;
+    color: white;
+}
+
+.my-btn:focus,
+.my-form-control:focus {
+    border: solid 1px #45347B;
+    box-shadow: 0px 0px 1px 2px rgba(69, 52, 123, 0.75);
+}
+
+.my-btn:hover {
+    background-color: #45347B;
+    border: solid 1px #45347B;
+    color: white;
+}
+
+.my-btn-inline {
+    margin-left: 8px;
+}
+
+.my-hidden {
+    display: none;
+}

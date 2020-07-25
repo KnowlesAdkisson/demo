@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app06_web_api\\app06_web_api.csproj": {}
+    "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app06_web_api\\app06_web_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app06_web_api\\app06_web_api.csproj": {
+    "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app06_web_api\\app06_web_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app06_web_api\\app06_web_api.csproj",
+        "projectUniqueName": "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app06_web_api\\app06_web_api.csproj",
         "projectName": "app06_web_api",
-        "projectPath": "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app06_web_api\\app06_web_api.csproj",
+        "projectPath": "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app06_web_api\\app06_web_api.csproj",
         "packagesPath": "C:\\Users\\knowl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app06_web_api\\obj\\",
+        "outputPath": "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app06_web_api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\knowl\\AppData\\Roaming\\NuGet\\NuGet.Config"

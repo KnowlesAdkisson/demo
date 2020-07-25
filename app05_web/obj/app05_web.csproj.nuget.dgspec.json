@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app05_web\\app05_web.csproj": {}
+    "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app05_web\\app05_web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app05_web\\app05_web.csproj": {
+    "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app05_web\\app05_web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app05_web\\app05_web.csproj",
+        "projectUniqueName": "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app05_web\\app05_web.csproj",
         "projectName": "app05_web",
-        "projectPath": "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app05_web\\app05_web.csproj",
+        "projectPath": "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app05_web\\app05_web.csproj",
         "packagesPath": "C:\\Users\\knowl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\knowl\\OneDrive\\Documents\\Visual Studio Code projects\\app05_web\\obj\\",
+        "outputPath": "C:\\Users\\knowl\\Documents\\class_2020\\demo\\app05_web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\knowl\\AppData\\Roaming\\NuGet\\NuGet.Config"
