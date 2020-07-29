@@ -40,6 +40,7 @@ namespace app06_web_api.Controllers
                                                Contributor_Employer,
                                                Contributor_Occupation,
                                                Contribution_Receipt_Amount,
+                                               Committee_Name,
                                                Contribution_Receipt_Date
                                         from Donations 
                                         where Contributor_Name LIKE @Donor"; 
@@ -81,6 +82,10 @@ namespace app06_web_api.Controllers
                     if(!reader.IsDBNull(reader.GetOrdinal("Contribution_Receipt_Amount")))
                     {
                         donor.Contribution_Receipt_Amount = reader.GetDouble(reader.GetOrdinal("Contribution_Receipt_Amount"));
+                    }
+                    if(!reader.IsDBNull(reader.GetOrdinal("Committee_Name")))
+                    {
+                        donor.committee_name = reader.GetString(reader.GetOrdinal("committee_name"));
                     }
                     if(!reader.IsDBNull(reader.GetOrdinal("Contribution_Receipt_Date")))
                     {

@@ -56,11 +56,11 @@
 
 
 
-                    var table = '<table class="table table-sm table-bordered"><thead><tr><th scope="col">Election Year</th><th scope="col">Donor</th><th scope="col">Address</th><th scope="col">City</th><th scope="col">Donor ZIP</th><th scope="col">Donor Employer</th><th scope="col">Donor Occupation</th><th scope="col">Donation Amount</th><th scope="col">Donation Date</th></tr></thead><tbody>';
+                    var table = '<table class="table table-sm table-bordered"><thead><tr><th scope="col">Election Year</th><th scope="col">Donor</th><th scope="col">Address</th><th scope="col">City</th><th scope="col">Donor ZIP</th><th scope="col">Donor Employer</th><th scope="col">Donor Occupation</th><th scope="col">Donation Amount</th><th scope="col">Recipient</th><th scope="col">Donation Date</th></tr></thead><tbody>';
 
                     var i;
                     for (i = 0; i < donors.length; i++) {
-                        table = table + '<tr><th scope="row">' + donors[i].feC_Election_Year + '</th><td>' + donors[i].contributor_Name + '</td><td>' + donors[i].contributor_Street_1 + '</td><td>' + donors[i].contributor_City + '</td><td>' + donors[i].contributor_ZIP + '</td><td>' + donors[i].contributor_Employer + '</td><td>' + donors[i].contributor_Occupation + '</td><td>' + donors[i].contribution_Receipt_Amount + '</td><td>' + donors[i].contribution_Receipt_Date + '</td></tr>';
+                        table = table + '<tr><th scope="row">' + donors[i].feC_Election_Year + '</th><td>' + donors[i].contributor_Name + '</td><td>' + donors[i].contributor_Street_1 + '</td><td>' + donors[i].contributor_City + '</td><td>' + donors[i].contributor_ZIP + '</td><td>' + donors[i].contributor_Employer + '</td><td>' + donors[i].contributor_Occupation + '</td><td>' + donors[i].contribution_Receipt_Amount + '</td><td>' + donors[i].committee_name + '</td><td>' + donors[i].contribution_Receipt_Date + '</td></tr>';
                     }
 
                     table = table + '</tbody></table>';

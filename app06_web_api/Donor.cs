@@ -12,6 +12,7 @@ namespace app06_web_api
         public string Contributor_Employer { get; set; }
         public string Contributor_Occupation { get; set; }
         public double? Contribution_Receipt_Amount { get; set; }
+        public string committee_name {get; set; }
         public DateTime? Contribution_Receipt_Date { get; set; }
         
     }

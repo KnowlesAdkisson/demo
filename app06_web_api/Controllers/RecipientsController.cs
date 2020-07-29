@@ -21,9 +21,9 @@ namespace app06_web_api.Controllers
         }
 
         [HttpGet("{recipient}")]
-        public IEnumerable<Recipient> Get(string myRecipient)
+        public IEnumerable<Donor> Get(string recipient)
         {
-            List<Recipient> recipients = new List<Recipient>();
+            List<Donor> donors = new List<Donor>();
 
             string connectionString = @"Server=LAPTOP-ALPTJ9MA\SQLEXPRESS;Database=AR FEC Donation Data;Trusted_Connection=True;";
                                                 
@@ -39,60 +39,64 @@ namespace app06_web_api.Controllers
                                                Contributor_ZIP,
                                                Contributor_Employer,
                                                Contributor_Occupation,
-                                               Committee_Name,
                                                Contribution_Receipt_Amount,
+                                               Committee_Name,
                                                Contribution_Receipt_Date
                                         from Donations 
                                         where Committee_Name LIKE @Recipient"; 
 
-                command.Parameters.AddWithValue("@Recipient", "%" + myRecipient + "%");
+                command.Parameters.AddWithValue("@Recipient", "%" + recipient + "%");
 
                 var reader = command.ExecuteReader();
                 while (reader.Read())
                 {
-                    Recipient recipient = new Recipient();
+                   Donor donor = new Donor();
 
                     if(!reader.IsDBNull(reader.GetOrdinal("FEC_Election_Year")))
                     {
-                        recipient.FEC_Election_Year = reader.GetInt16(reader.GetOrdinal("FEC_Election_Year"));
+                        donor.FEC_Election_Year = reader.GetInt16(reader.GetOrdinal("FEC_Election_Year"));
                     }
                     if(!reader.IsDBNull(reader.GetOrdinal("Contributor_ZIP")))
                     {
-                        recipient.Contributor_ZIP = reader.GetInt32(reader.GetOrdinal("Contributor_ZIP"));
+                        donor.Contributor_ZIP = reader.GetInt32(reader.GetOrdinal("Contributor_ZIP"));
                     }
                     if(!reader.IsDBNull(reader.GetOrdinal("Contributor_City")))
                     {
-                        recipient.Contributor_City = reader.GetString(reader.GetOrdinal("Contributor_City"));
+                        donor.Contributor_City = reader.GetString(reader.GetOrdinal("Contributor_City"));
                     }
                     if(!reader.IsDBNull(reader.GetOrdinal("Contributor_Name")))
                     {
-                        recipient.Contributor_Name = reader.GetString(reader.GetOrdinal("Contributor_Name"));
+                        donor.Contributor_Name = reader.GetString(reader.GetOrdinal("Contributor_Name"));
                     }
                     if(!reader.IsDBNull(reader.GetOrdinal("Contributor_Street_1")))
                     {
-                        recipient.Contributor_Street_1 = reader.GetString(reader.GetOrdinal("Contributor_Street_1"));
+                        donor.Contributor_Street_1 = reader.GetString(reader.GetOrdinal("Contributor_Street_1"));
                     }   
                     if(!reader.IsDBNull(reader.GetOrdinal("Contributor_Employer")))
                     {
-                        recipient.Contributor_Employer = reader.GetString(reader.GetOrdinal("Contributor_Employer"));
+                        donor.Contributor_Employer = reader.GetString(reader.GetOrdinal("Contributor_Employer"));
                     }
                     if(!reader.IsDBNull(reader.GetOrdinal("Contributor_Occupation")))
                     {
-                        recipient.Contributor_Occupation = reader.GetString(reader.GetOrdinal("Contributor_Occupation"));
+                        donor.Contributor_Occupation = reader.GetString(reader.GetOrdinal("Contributor_Occupation"));
                     }
                     if(!reader.IsDBNull(reader.GetOrdinal("Contribution_Receipt_Amount")))
                     {
-                        recipient.Contribution_Receipt_Amount = reader.GetInt32(reader.GetOrdinal("Contribution_Receipt_Amount"));
+                        donor.Contribution_Receipt_Amount = reader.GetDouble(reader.GetOrdinal("Contribution_Receipt_Amount"));
+                    }
+                    if(!reader.IsDBNull(reader.GetOrdinal("Committee_Name")))
+                    {
+                        donor.committee_name = reader.GetString(reader.GetOrdinal("committee_name"));
                     }
                     if(!reader.IsDBNull(reader.GetOrdinal("Contribution_Receipt_Date")))
                     {
-                        recipient.Contribution_Receipt_Date = reader.GetInt32(reader.GetOrdinal("Contribution_Receipt_Date"));
+                        donor.Contribution_Receipt_Date = reader.GetDateTime(reader.GetOrdinal("Contribution_Receipt_Date"));
                     }
-                    recipients.Add(recipient);
+                    donors.Add(donor);
                 }
             }
 
-            return recipients;
+            return donors;
         }
     }
 }
