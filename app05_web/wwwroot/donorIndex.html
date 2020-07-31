@@ -78,7 +78,7 @@
                         <label for="donorName">Name</label>
                         <input type="text" class="form-control" id="donorName" placeholder="" value="" required>
                         <div class="invalid-feedback">
-                            Valid first name is required.
+                            Valid name is required.
                         </div>
                     </div>
                     <!-- <div class="col-md-6 mb-3">
@@ -104,7 +104,7 @@
                         <label for="recipientName">Name</label>
                         <input type="text" class="form-control" id="recipientName" placeholder="" value="" required>
                         <div class="invalid-feedback">
-                            Valid first name is required.
+                            Valid name is required.
                         </div>
                     </div>
                     <!-- <div class="col-md-6 mb-3">
@@ -119,7 +119,47 @@
                 <hr class="mb-4">
                 <button id="recipientButton" class="btn btn-secondary btn-lg btn-block" type="submit">search</button>
             </form>
+
+            <!-- Recipient Name ZIP!! -->
+            <form id="form3" class="my-form my-hidden">
+
+              <h1 class="my-form-title">ZIP</h1>
+
+              <div class="row">
+                  <div class="col-md-6 mb-3">
+                      <label for="ZIPName">ZIP Code</label>
+                      <input type="text" class="form-control" id="ZIPName" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                          Valid ZIP is required.
+                      </div>
+                  </div>
+              </div>
+
+              <hr class="mb-4">
+              <button id="ZIPButton" class="btn btn-secondary btn-lg btn-block" type="submit">search</button>
+          </form>
+
+          <!-- Recipient Name -->
+          <form id="form4" class="my-form my-hidden">
+
+            <h1 class="my-form-title">Occupation</h1>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="occupationName">Occupation</label>
+                    <input type="text" class="form-control" id="occupationName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                        Valid occupation is required.
+                    </div>
+                </div>
+            </div>
+
+            <hr class="mb-4">
+            <button id="occupationButton" class="btn btn-secondary btn-lg btn-block" type="submit">search</button>
+        </form>
           </div><!-- end of row 2, col-2 -->
+
+          
 
           <div class="col-sm-1">
           </div>

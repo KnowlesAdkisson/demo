@@ -116,3 +116,13 @@ table {
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+
+table{
+    background-color: white;
+    border-radius: 12px;
+}
+
+.table-sm th, .table-sm td{
+    padding: 16px;
+}
